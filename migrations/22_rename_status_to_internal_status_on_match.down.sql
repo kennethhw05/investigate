@@ -1,1 +1,0 @@
-ALTER TABLE matches RENAME COLUMN internal_status TO status;

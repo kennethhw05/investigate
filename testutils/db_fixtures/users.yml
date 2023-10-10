@@ -1,7 +1,0 @@
-- id: 44d11ea8-3d73-4be2-aeb9-5fd170a9c387
-  email: "siimpltest@test.io"
-  access_role: "USER"
-- id: ea4fd3a5-247a-4128-8a3f-522cb20cc66c
-  email: "super@admin.com"
-  password: RAW='$2a$10$4R88xTGkzrfpfBPWgJHBOO6Eb7xL6zUm9TvcB.AUivYIY2wIfFDe6'::bytea
-  access_role: "SUPER_ADMIN"

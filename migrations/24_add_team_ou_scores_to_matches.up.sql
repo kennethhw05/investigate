@@ -1,1 +1,0 @@
-ALTER TABLE matches ADD COLUMN IF NOT EXISTS team_ou_scores JSONB;

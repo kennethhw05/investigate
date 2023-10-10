@@ -1,2 +1,0 @@
-ALTER TABLE pools
-    ADD COLUMN IF NOT EXISTS note text;

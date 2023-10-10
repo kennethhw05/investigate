@@ -1,1 +1,0 @@
-ALTER TABLE matches ALTER COLUMN is_active DROP NOT NULL;

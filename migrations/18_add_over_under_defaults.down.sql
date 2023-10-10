@@ -1,2 +1,0 @@
-DROP INDEX IF EXISTS over_under_defaults_uniqueness_on_game_match_format;
-DROP TABLE IF EXISTS over_under_defaults;
