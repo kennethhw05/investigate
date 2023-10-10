@@ -1,0 +1,12 @@
+- id: 3a6acaaf-596a-4569-976a-008cb2562c3e
+  time: RAW=NOW()
+  edit_action: CREATE
+- id: abb036e3-973f-4428-899d-8a70210cd7c4
+  time: RAW=NOW()
+  edit_action: UPDATE
+- id: 80764415-5fa6-4bce-b692-2f96aa3be867
+  time: RAW=NOW()
+  edit_action: UPDATE
+- id: 1e851f20-3284-47c2-8839-b34a5e0a5cc0
+  time: RAW=NOW()
+  edit_action: DELETE

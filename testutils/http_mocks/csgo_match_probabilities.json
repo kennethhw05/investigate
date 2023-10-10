@@ -1,0 +1,65 @@
+{
+    "generated_at": "2018-10-16T15:59:58+00:00",
+    "schema": "http:\/\/schemas.sportradar.com\/bsa\/csgo\/v1\/json\/endpoints\/csgo\/match_probabilities.json",
+    "sport_event": {
+        "id": "sr:match:14763667",
+        "scheduled": "2018-07-02T20:15:00+00:00",
+        "start_time_tbd": false,
+        "tournament_round": {
+            "type": "group",
+            "number": 3,
+            "cup_round_match_number": 1,
+            "cup_round_matches": 1,
+            "phase": "regular_season"
+        },
+        "season": {
+            "id": "sr:season:54551",
+            "name": "ESL Meisterschaft 2018 - Summer",
+            "start_date": "2018-06-18",
+            "end_date": "2018-08-31",
+            "year": "2018",
+            "tournament_id": "sr:tournament:2547"
+        },
+        "tournament": {
+            "id": "sr:tournament:2547",
+            "name": "Esl Meisterschaft",
+            "sport": {
+                "id": "sr:sport:109",
+                "name": "Counter-Strike"
+            },
+            "category": {
+                "id": "sr:category:1041",
+                "name": "ESL CS:GO"
+            }
+        },
+        "competitors": [{
+            "id": "sr:competitor:341010",
+            "name": "Berzerk",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "abbreviation": "BER",
+            "qualifier": "home"
+        }, {
+            "id": "sr:competitor:384604",
+            "name": "Sprout",
+            "abbreviation": "SPR",
+            "qualifier": "away"
+        }],
+        "venue": {
+            "id": "sr:venue:17294",
+            "name": "Online"
+        }
+    },
+    "probabilities": {
+        "markets": [{
+            "name": "2way",
+            "outcomes": [{
+                "name": "home_team_winner",
+                "probability": 55.5
+            }, {
+                "name": "away_team_winner",
+                "probability": 44.5
+            }]
+        }]
+    }
+}

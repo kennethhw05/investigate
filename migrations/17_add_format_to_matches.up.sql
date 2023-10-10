@@ -1,0 +1,2 @@
+ALTER TABLE matches ADD COLUMN IF NOT EXISTS format TEXT;
+UPDATE matches SET format = 'UNKNOWN' WHERE format IS NULL;

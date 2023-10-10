@@ -1,0 +1,2 @@
+ALTER TABLE pools
+    DROP COLUMN IF EXISTS note;

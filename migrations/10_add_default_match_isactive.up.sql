@@ -1,0 +1,3 @@
+ALTER TABLE matches ALTER COLUMN is_active SET DEFAULT FALSE;
+UPDATE matches SET is_active = FALSE WHERE is_active IS NULL;
+ALTER TABLE matches ALTER COLUMN is_active SET NOT NULL;

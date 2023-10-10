@@ -1,0 +1,33 @@
+schema: schema.graphql
+exec:
+  filename: pkg/api/graphql/generated.go
+model:
+  filename: pkg/models/graphql_models_gen.go
+resolver:
+  filename: pkg/api/graphql/resolver.go
+  type: Resolver
+models:
+  User:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.User
+  Event:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Event
+  Match:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Match
+  Competitor:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Competitor
+  #CompetitorMatch:
+  #  model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.CompetitorMatch
+  Player:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Player
+  Pool:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Pool
+  PoolDefault:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.PoolDefault
+  Leg:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Leg
+  Audit:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.Audit
+  OverUnderDefault:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.OverUnderDefault
+  ConsolationPrize:
+    model: gitlab.com/siimpl/esp-betting/betting-feed/pkg/models.ConsolationPrize

@@ -1,0 +1,38 @@
+{
+    "data": {
+        "type": "tournament",
+        "id": "br-pax",
+        "relationships": {
+            "matches": {
+                "data": [{
+                        "type": "match",
+                        "id": "c4da1d4d-7ed6-4e76-a128-291d22fc6620"
+                    },
+                    {
+                        "type": "match",
+                        "id": "f473ca1d-71f7-4787-8cd4-74ea7262678e"
+                    }
+                ]
+            }
+        }
+    },
+    "included": [{
+            "type": "match",
+            "id": "c4da1d4d-7ed6-4e76-a128-291d22fc6620",
+            "attributes": {
+                "createdAt": "2018-09-02T23:10:06Z"
+            }
+        },
+        {
+            "type": "match",
+            "id": "f473ca1d-71f7-4787-8cd4-74ea7262678e",
+            "attributes": {
+                "createdAt": "2018-09-02T22:09:36Z"
+            }
+        }
+    ],
+    "links": {
+        "self": "https://api.pubg.com/tournaments/br-pax"
+    },
+    "meta": {}
+}

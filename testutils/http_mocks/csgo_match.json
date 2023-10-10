@@ -1,0 +1,382 @@
+{
+    "generated_at": "2018-08-29T21:36:15+00:00",
+    "schema": "http:\/\/schemas.sportradar.com\/bsa\/csgo\/v1\/json\/endpoints\/csgo\/match_summary.json",
+    "sport_event": {
+        "id": "sr:match:14763667",
+        "scheduled": "2018-07-02T20:15:00+00:00",
+        "start_time_tbd": false,
+        "tournament_round": {
+            "type": "group",
+            "number": 3,
+            "phase": "regular_season"
+        },
+        "season": {
+            "id": "sr:season:54551",
+            "name": "ESL Meisterschaft 2018 - Summer",
+            "start_date": "2018-06-18",
+            "end_date": "2018-08-31",
+            "year": "2018",
+            "tournament_id": "sr:tournament:2547"
+        },
+        "tournament": {
+            "id": "sr:tournament:2547",
+            "name": "ESL Meisterschaft",
+            "sport": {
+                "id": "sr:sport:109",
+                "name": "Counter-Strike"
+            },
+            "category": {
+                "id": "sr:category:1041",
+                "name": "ESL CS:GO"
+            }
+        },
+        "competitors": [{
+            "id": "sr:competitor:341010",
+            "name": "Berzerk",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "abbreviation": "BER",
+            "qualifier": "home"
+        }, {
+            "id": "sr:competitor:384604",
+            "name": "Sprout",
+            "abbreviation": "SPR",
+            "qualifier": "away"
+        }],
+        "venue": {
+            "id": "sr:venue:17294",
+            "name": "Online"
+        },
+        "streams": [{
+            "url": "http:\/\/live.pro.eslgaming.com\/deutschland_csgo"
+        }]
+    },
+    "sport_event_conditions": {
+        "match_mode": "bo1",
+        "venue": {
+            "id": "sr:venue:17294",
+            "name": "Online"
+        }
+    },
+    "sport_event_status": {
+        "status": "closed",
+        "match_status": "ended",
+        "home_score": 0,
+        "away_score": 1,
+        "winner_id": "sr:competitor:384604",
+        "period_scores": [{
+            "home_score": 10,
+            "away_score": 16,
+            "type": "map",
+            "number": 1,
+            "map_name": "de_train"
+        }]
+    },
+    "statistics": {
+        "teams": [{
+            "id": "sr:competitor:341010",
+            "name": "Berzerk",
+            "abbreviation": "BER",
+            "qualifier": "home",
+            "statistics": {
+                "kills": 72,
+                "assists": 6,
+                "deaths": 105,
+                "headshots": 37,
+                "kd_ratio": 0.69,
+                "headshot_percent": 51.39
+            },
+            "players": [{
+                "id": "sr:player:1062442",
+                "name": "Zeindler, Manuel",
+                "nickname": "SolEk",
+                "statistics": {
+                    "kills": 10,
+                    "assists": 1,
+                    "deaths": 20,
+                    "headshots": 8,
+                    "kd_ratio": 0.5,
+                    "headshot_percent": 80
+                }
+            }, {
+                "id": "sr:player:1147104",
+                "name": "Ibrahimi, Meriton",
+                "nickname": "MALI",
+                "statistics": {
+                    "kills": 17,
+                    "assists": 0,
+                    "deaths": 18,
+                    "headshots": 11,
+                    "kd_ratio": 0.94,
+                    "headshot_percent": 64.71
+                }
+            }, {
+                "id": "sr:player:929948",
+                "name": "Broschk, Tahsin",
+                "nickname": "tahsiN",
+                "statistics": {
+                    "kills": 16,
+                    "assists": 1,
+                    "deaths": 22,
+                    "headshots": 5,
+                    "kd_ratio": 0.73,
+                    "headshot_percent": 31.25
+                }
+            }, {
+                "id": "sr:player:984809",
+                "name": "Konkol, David",
+                "nickname": "dav1dK",
+                "statistics": {
+                    "kills": 17,
+                    "assists": 1,
+                    "deaths": 23,
+                    "headshots": 6,
+                    "kd_ratio": 0.74,
+                    "headshot_percent": 35.29
+                }
+            }, {
+                "id": "sr:player:984817",
+                "name": "Tuna, Volkan",
+                "nickname": "Badshah",
+                "statistics": {
+                    "kills": 12,
+                    "assists": 3,
+                    "deaths": 22,
+                    "headshots": 7,
+                    "kd_ratio": 0.55,
+                    "headshot_percent": 58.33
+                }
+            }]
+        }, {
+            "id": "sr:competitor:384604",
+            "name": "Sprout",
+            "abbreviation": "SPR",
+            "qualifier": "away",
+            "statistics": {
+                "kills": 105,
+                "assists": 20,
+                "deaths": 72,
+                "headshots": 47,
+                "kd_ratio": 1.46,
+                "headshot_percent": 44.76
+            },
+            "players": [{
+                "id": "sr:player:1356152",
+                "name": "Nielsen, Denis",
+                "nickname": "sycrone",
+                "statistics": {
+                    "kills": 15,
+                    "assists": 4,
+                    "deaths": 13,
+                    "headshots": 6,
+                    "kd_ratio": 1.15,
+                    "headshot_percent": 40
+                }
+            }, {
+                "id": "sr:player:1403985",
+                "name": "Sillassen, Niels Christian",
+                "nickname": "NaToSaphiX",
+                "statistics": {
+                    "kills": 14,
+                    "assists": 3,
+                    "deaths": 15,
+                    "headshots": 10,
+                    "kd_ratio": 0.93,
+                    "headshot_percent": 71.43
+                }
+            }, {
+                "id": "sr:player:1494049",
+                "name": "Slovacek, David",
+                "nickname": "syncD",
+                "statistics": {
+                    "kills": 29,
+                    "assists": 3,
+                    "deaths": 15,
+                    "headshots": 14,
+                    "kd_ratio": 1.93,
+                    "headshot_percent": 48.28
+                }
+            }, {
+                "id": "sr:player:929950",
+                "name": "Richter, Timo",
+                "nickname": "Spiidi",
+                "statistics": {
+                    "kills": 19,
+                    "assists": 7,
+                    "deaths": 15,
+                    "headshots": 9,
+                    "kd_ratio": 1.27,
+                    "headshot_percent": 47.37
+                }
+            }, {
+                "id": "sr:player:929992",
+                "name": "Howell, Denis",
+                "nickname": "denis",
+                "statistics": {
+                    "kills": 28,
+                    "assists": 3,
+                    "deaths": 14,
+                    "headshots": 8,
+                    "kd_ratio": 2,
+                    "headshot_percent": 28.57
+                }
+            }]
+        }],
+        "maps": [{
+            "number": 1,
+            "rounds": 26,
+            "teams": [{
+                "id": "sr:competitor:341010",
+                "name": "Berzerk",
+                "abbreviation": "BER",
+                "qualifier": "home",
+                "statistics": {
+                    "kills": 72,
+                    "assists": 6,
+                    "deaths": 105,
+                    "headshots": 37,
+                    "kd_ratio": 0.69,
+                    "headshot_percent": 51.39
+                },
+                "players": [{
+                    "id": "sr:player:1062442",
+                    "name": "Zeindler, Manuel",
+                    "nickname": "SolEk",
+                    "statistics": {
+                        "kills": 10,
+                        "assists": 1,
+                        "deaths": 20,
+                        "headshots": 8,
+                        "kd_ratio": 0.5,
+                        "headshot_percent": 80
+                    }
+                }, {
+                    "id": "sr:player:1147104",
+                    "name": "Ibrahimi, Meriton",
+                    "nickname": "MALI",
+                    "statistics": {
+                        "kills": 17,
+                        "assists": 0,
+                        "deaths": 18,
+                        "headshots": 11,
+                        "kd_ratio": 0.94,
+                        "headshot_percent": 64.71
+                    }
+                }, {
+                    "id": "sr:player:929948",
+                    "name": "Broschk, Tahsin",
+                    "nickname": "tahsiN",
+                    "statistics": {
+                        "kills": 16,
+                        "assists": 1,
+                        "deaths": 22,
+                        "headshots": 5,
+                        "kd_ratio": 0.73,
+                        "headshot_percent": 31.25
+                    }
+                }, {
+                    "id": "sr:player:984809",
+                    "name": "Konkol, David",
+                    "nickname": "dav1dK",
+                    "statistics": {
+                        "kills": 17,
+                        "assists": 1,
+                        "deaths": 23,
+                        "headshots": 6,
+                        "kd_ratio": 0.74,
+                        "headshot_percent": 35.29
+                    }
+                }, {
+                    "id": "sr:player:984817",
+                    "name": "Tuna, Volkan",
+                    "nickname": "Badshah",
+                    "statistics": {
+                        "kills": 12,
+                        "assists": 3,
+                        "deaths": 22,
+                        "headshots": 7,
+                        "kd_ratio": 0.55,
+                        "headshot_percent": 58.33
+                    }
+                }]
+            }, {
+                "id": "sr:competitor:384604",
+                "name": "Sprout",
+                "abbreviation": "SPR",
+                "qualifier": "away",
+                "statistics": {
+                    "kills": 105,
+                    "assists": 20,
+                    "deaths": 72,
+                    "headshots": 47,
+                    "kd_ratio": 1.46,
+                    "headshot_percent": 44.76
+                },
+                "players": [{
+                    "id": "sr:player:1356152",
+                    "name": "Nielsen, Denis",
+                    "nickname": "sycrone",
+                    "statistics": {
+                        "kills": 15,
+                        "assists": 4,
+                        "deaths": 13,
+                        "headshots": 6,
+                        "kd_ratio": 1.15,
+                        "headshot_percent": 40
+                    }
+                }, {
+                    "id": "sr:player:1403985",
+                    "name": "Sillassen, Niels Christian",
+                    "nickname": "NaToSaphiX",
+                    "statistics": {
+                        "kills": 14,
+                        "assists": 3,
+                        "deaths": 15,
+                        "headshots": 10,
+                        "kd_ratio": 0.93,
+                        "headshot_percent": 71.43
+                    }
+                }, {
+                    "id": "sr:player:1494049",
+                    "name": "Slovacek, David",
+                    "nickname": "syncD",
+                    "statistics": {
+                        "kills": 29,
+                        "assists": 3,
+                        "deaths": 15,
+                        "headshots": 14,
+                        "kd_ratio": 1.93,
+                        "headshot_percent": 48.28
+                    }
+                }, {
+                    "id": "sr:player:929950",
+                    "name": "Richter, Timo",
+                    "nickname": "Spiidi",
+                    "statistics": {
+                        "kills": 19,
+                        "assists": 7,
+                        "deaths": 15,
+                        "headshots": 9,
+                        "kd_ratio": 1.27,
+                        "headshot_percent": 47.37
+                    }
+                }, {
+                    "id": "sr:player:929992",
+                    "name": "Howell, Denis",
+                    "nickname": "denis",
+                    "statistics": {
+                        "kills": 28,
+                        "assists": 3,
+                        "deaths": 14,
+                        "headshots": 8,
+                        "kd_ratio": 2,
+                        "headshot_percent": 28.57
+                    }
+                }]
+            }]
+        }],
+        "totals": {
+            "rounds": 26
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "generated_at": "2018-10-16T16:04:05+00:00",
+    "schema": "http:\/\/schemas.sportradar.com\/bsa\/lol\/v1\/json\/endpoints\/lol\/match_probabilities.json",
+    "sport_event": {
+        "id": "sr:match:14588548",
+        "scheduled": "2018-07-01T00:05:00+00:00",
+        "start_time_tbd": false,
+        "tournament_round": {
+            "type": "group",
+            "number": 3,
+            "phase": "regular_season"
+        },
+        "season": {
+            "id": "sr:season:53672",
+            "name": "LCS NA Season 2018 - Summer Split",
+            "start_date": "2018-06-16",
+            "end_date": "2018-09-11",
+            "year": "2018",
+            "tournament_id": "sr:tournament:2450"
+        },
+        "tournament": {
+            "id": "sr:tournament:2450",
+            "name": "Lcs Na",
+            "sport": {
+                "id": "sr:sport:110",
+                "name": "League of Legends"
+            },
+            "category": {
+                "id": "sr:category:1046",
+                "name": "Riot LoL"
+            }
+        },
+        "competitors": [{
+            "id": "sr:competitor:309222",
+            "name": "Flyquest",
+            "country": "USA",
+            "country_code": "USA",
+            "abbreviation": "FLY",
+            "qualifier": "home"
+        }, {
+            "id": "sr:competitor:401555",
+            "name": "Golden Guardians",
+            "abbreviation": "GOG",
+            "qualifier": "away"
+        }]
+    },
+    "probabilities": {
+        "markets": [{
+            "name": "2way",
+            "outcomes": [{
+                "name": "home_team_winner",
+                "probability": 48.5
+            }, {
+                "name": "away_team_winner",
+                "probability": 51.5
+            }]
+        }]
+    }
+}

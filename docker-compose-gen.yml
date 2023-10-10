@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: "./infrastructure/docker/dev.Dockerfile"
+    volumes:
+      - "./:/go/src/gitlab.com/siimpl/esp-betting/betting-feed"
+      - go_pkgs:/go/pkg
+    working_dir: /go/src/gitlab.com/siimpl/esp-betting/betting-feed
+    environment:
+      GO111MODULE: 'off'
+volumes:
+  go_pkgs: {}

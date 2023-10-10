@@ -1,0 +1,62 @@
+{
+    "generated_at": "2018-08-29T21:52:56+00:00",
+    "schema": "http:\/\/schemas.sportradar.com\/bsa\/csgo\/v1\/json\/endpoints\/csgo\/tournaments.json",
+    "tournaments": [{
+            "id": "sr:tournament:26300",
+            "name": "ESL Pro European Championship",
+            "sport": {
+                "id": "sr:sport:109",
+                "name": "Counter-Strike"
+            },
+            "category": {
+                "id": "sr:category:1041",
+                "name": "ESL CS:GO"
+            },
+            "current_season": {
+                "id": "sr:season:57232",
+                "name": "ESL Pro European Championship 2018",
+                "start_date": "2018-08-28",
+                "end_date": "3018-10-15",
+                "year": "2018"
+            }
+        },
+        {
+            "id": "sr:tournament:24433",
+            "name": "ESL One - New York",
+            "sport": {
+                "id": "sr:sport:109",
+                "name": "Counter-Strike"
+            },
+            "category": {
+                "id": "sr:category:1041",
+                "name": "ESL CS:GO"
+            },
+            "current_season": {
+                "id": "sr:season:57232",
+                "name": "ESL One - New York 2018",
+                "start_date": "2018-08-28",
+                "end_date": "3018-10-15",
+                "year": "2018"
+            }
+        },
+        {
+            "id": "sr:tournament:24435",
+            "name": "ESL One - Cologne",
+            "sport": {
+                "id": "sr:sport:109",
+                "name": "Counter-Strike"
+            },
+            "category": {
+                "id": "sr:category:1041",
+                "name": "ESL CS:GO"
+            },
+            "current_season": {
+                "id": "sr:season:57232",
+                "name": "ESL One - Cologne 2018",
+                "start_date": "2018-08-28",
+                "end_date": "3018-10-15",
+                "year": "2018"
+            }
+        }
+    ]
+}

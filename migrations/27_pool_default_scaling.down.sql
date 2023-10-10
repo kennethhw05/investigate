@@ -1,0 +1,1 @@
+UPDATE pool_defaults set unit_value = 100;
